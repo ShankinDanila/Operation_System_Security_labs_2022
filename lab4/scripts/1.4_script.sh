@@ -1,11 +1,8 @@
-#! /bin/bash
+#!/bin/bash
 
-echo "Good Morning!"
+echo "Good morning, mister $USER :D"
+
+date "+%H:%M:%S"
 cal
-
-if [-f ~/TODO]; then
-    cat ~/TODO
-else
-    echo "No file expected"
-fi
+cat ~/TODO
 

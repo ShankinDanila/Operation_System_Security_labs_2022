@@ -1,4 +1,2 @@
 #!/bin/bash
-
-grep -i bin 1>&2
-
+ls / |& grep -w bin >&2
