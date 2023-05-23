@@ -40,7 +40,7 @@ function clear_with_hat()
     clear
     printf '%s' "$UPTOP"
     echo "${REV}OSS LAB SCRIPT${OFF}" | prSection 1
-    echo "${REV}FEDOROV ALEXEY Б20505${OFF}" | prSection 1
+    echo "${REV}SHANKIN DANILA Б20505${OFF}" | prSection 1
     echo "Controls:"$'\n'"$(column -s ':' -t < <(printf "%s\n" "$CONTROLS"))" | prSection 3
 }
 
